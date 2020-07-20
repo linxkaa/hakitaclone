@@ -1,0 +1,132 @@
+/* header */
+
+.containerhakita {
+    background-image: url(https://www.hakita.id/assets/img/main-hero-man2.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 40rem;
+    background-position: left;
+    background-size: cover;
+    padding-bottom: 2rem;
+    h1 {
+        color: white;
+        text-transform: uppercase;
+        line-height: 1.4;
+    }
+    .btn-hakita {
+        border: none;
+        background-color: $blue-light;
+        color: white;
+        padding: 1rem 1.4rem;
+        border-radius: 0.5rem;
+    }
+}
+
+
+/* content */
+
+.container-about {
+    padding-top: 4rem !important;
+    h3 {
+        padding-bottom: 0.4rem;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    p {
+        font-size: 1rem;
+        color: rgba(0, 0, 0, 0.829);
+    }
+}
+
+// product
+#prods {
+    margin-top: 4rem;
+    h4 {
+        margin-top: 2rem;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    p {
+        margin-top: 2rem;
+    }
+    .arrow-wrapper {
+        position: relative;
+        .arrow-icon {
+            position: absolute;
+            right: 0.8rem;
+            font-size: 1.4rem;
+        }
+    }
+}
+
+//tabrakan
+#tabrakan-info {
+    background-image: url(https://www.hakita.id/assets/img/success-rate-min.jpg);
+    color: white;
+    h1 {
+        .txt1 {
+            text-transform: uppercase;
+        }
+        .txt2 {
+            display: block;
+            font-weight: normal;
+        }
+    }
+}
+
+// blog
+.blog-content {
+    .container {
+        button.blog-btn {
+            border: none;
+            color: white;
+            background-color: $blue-light;
+            padding: 0.3rem;
+            font-size: 0.8rem;
+        }
+        p {
+            font-size: 0.9rem;
+            padding: 0.8rem 0;
+            .title {
+                font-weight: 500;
+            }
+            .time-1 {
+                margin-top: 0.4rem;
+                display: block;
+                color: grey;
+            }
+        }
+        .read {
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: $blue-light;
+        }
+    }
+}
+
+//question section
+.question {
+    .containercostum {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 1rem;
+        margin-bottom: 3rem;
+        .cost-bg {
+            background-color: $blue-dark;
+            padding: 1rem;
+            width: 4rem;
+            height: 3.5rem;
+            .svg-inline--fa {
+                color: white;
+            }
+        }
+        .text-qst {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            h1 {
+                line-height: 1rem;
+                font-weight: 700;
+                font-size: 0.4rem;
+            }
+        }
+    }
+}

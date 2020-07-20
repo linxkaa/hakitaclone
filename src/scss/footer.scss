@@ -1,0 +1,24 @@
+#footer {
+    background-color: $footer;
+    color: rgba(255, 255, 255, 0.644);
+    h3 {
+        font-size: 1rem;
+        color: white;
+    }
+    p {
+        padding-top: 1rem;
+        font-size: 0.8rem;
+    }
+    .footer-last {
+        padding: 1rem 0;
+        background-color: #212324;
+        border-top: thin solid rgba(156, 151, 151, 0.404);
+        a {
+            color: #999;
+        }
+        h3 {
+            font-weight: none;
+            font-size: 0.8rem;
+        }
+    }
+}

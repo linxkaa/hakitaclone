@@ -1,14 +1,22 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+var loadjs = require("loadjs");
 
 class Login extends Component {
+  componentWillMount() {
+    loadjs([
+      "./js/script.js",
+      "./js/animatedpic.js, https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js",
+    ]);
+  }
   render() {
     return (
       <div>
         <div className="limiter mx-auto">
-          <div className="container-login100">
-            <div className="wrap-login shadow">
+          <div className="container-login100 d-flex flex-row justify-content-center align-items-center">
+            <div className="wrap-login shadow d-flex flex-row flex-wrap justify-content-space-between">
               <form className="login-form">
-                <span className="login100-form-title">Member Login</span>
+                <span className="login-form-title">Member Login</span>
                 <div className="wrap-input">
                   <input
                     className="input-login"
@@ -47,7 +55,7 @@ class Login extends Component {
                     className="txt2 row justify-content-center align-items-center"
                     href="#"
                   >
-                    <p> Create your Account</p>
+                    <Link to="/signup"> Create your Account</Link>
                     <i className="fa fa-arrow-right" aria-hidden="true" />
                   </a>
                 </div>

@@ -1,0 +1,70 @@
+@media only screen and (max-width: 590px) {
+    .pads,
+    .containerhakita,
+    .container-about {
+        padding: 1rem 0;
+        padding-right: 0.7rem;
+    }
+    .question {
+        .containercostum {
+            margin-top: 1.3rem;
+        }
+    }
+    #footer {
+        .footer-row {
+            p {
+                margin: 1rem 0;
+            }
+            margin-top: 1.3rem;
+        }
+        .footer-last {
+            h3 {
+                padding-top: 0.5rem;
+            }
+        }
+        .testtt {
+            text-align: center;
+        }
+    }
+    .login-pic {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 590px) and (max-width: 959px) {
+    .wrap-login {
+        .login-pic {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (min-width: 766px) and (max-width: 959px) {
+    .pads,
+    .containerhakita,
+    .container-about {
+        padding: 1rem 1rem;
+    }
+    .navbarcollapze {
+        display: none;
+    }
+    #footer {
+        .testtt {
+            text-align: center;
+        }
+    }
+    .login-pic {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 959px) {
+    .pads,
+    .containerhakita,
+    .container-about {
+        padding: 1rem 7rem;
+    }
+    .navbarcollapze {
+        display: none;
+    }
+}

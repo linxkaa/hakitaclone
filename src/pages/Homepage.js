@@ -1,9 +1,16 @@
 import React, { Component } from "react";
 import Navbar from "../component/Navbar.js";
 import Footer from "../component/Footer.js";
-import { Link } from "react-router-dom";
+
+var loadjs = require("loadjs");
 
 class Homepage extends Component {
+  componentWillMount() {
+    loadjs([
+      "./js/script.js",
+      "./js/animatedpic.js, https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js",
+    ]);
+  }
   render() {
     return (
       <>
